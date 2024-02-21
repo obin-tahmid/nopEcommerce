@@ -1,0 +1,6 @@
+
+
+Recording to show how the tests are interacting with the mobile app(In Emulator). Visit the Url.
+
+https://app.screencast.com/3jntI6yoZiU6f
+
