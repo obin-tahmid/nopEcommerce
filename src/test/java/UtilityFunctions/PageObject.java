@@ -266,9 +266,15 @@ public class PageObject extends BaseTest {
 
 	public By getGuestCheckoutOrderConfirmationPopupSuccessMessage() {
 
-		getUtil().threadSleep(3000);
+
 
 		return AppiumBy.id("com.nopstation.nopcommerce.nopstationcart:id/md_text_message");
+
+	}
+
+	public By getProgressWheel() {
+
+		return AppiumBy.id("com.nopstation.nopcommerce.nopstationcart:id/progress_wheel");
 
 	}
 

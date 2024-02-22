@@ -47,7 +47,8 @@ public class Util extends BaseTest {
 
 		element.click();
 
-		getUtil().threadSleep(1000);
+//		getUtil().threadSleep(1000);
+		getUtil().waitForProgressWheelToDisappear();
 
 	}
 
@@ -83,7 +84,8 @@ public class Util extends BaseTest {
 	}
 
 	public boolean isElementVisible(By byLocator) {
-		getUtil().threadSleep(4000);
+//		getUtil().threadSleep(4000);
+		getUtil().waitForProgressWheelToDisappear();
 
 		boolean elementPresence;
 
@@ -227,7 +229,8 @@ public class Util extends BaseTest {
 
 	public void scrollRightOfElement(By byLocator) {
 
-		getUtil().threadSleep(4000);
+		getUtil().waitForProgressWheelToDisappear();
+
 		WebElement element = getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(byLocator));
 
 		org.openqa.selenium.Dimension elementSize = element.getSize();
@@ -237,7 +240,7 @@ public class Util extends BaseTest {
 		int elementWidth = elementSize.getWidth();
 
 		Point start = new Point(elementLocation.getX(), elementLocation.getY());
-		Point end = new Point((int) (elementLocation.getX() - (elementLocation.getX()*1.5)), elementLocation.getY());
+		Point end = new Point((int) (elementLocation.getX() - (elementLocation.getX() * 1.5)), elementLocation.getY());
 //		Point end = new Point((int) (20), elementLocation.getY());
 
 		swipe(start, end, Duration.ofMillis(300));
@@ -275,12 +278,12 @@ public class Util extends BaseTest {
 
 	public void scrollDownToElement(By byLocator) {
 
-		threadSleep(2000);
+		getUtil().waitForProgressWheelToDisappear();
 		int limit = 12;
 
 		for (int i = 0; i < limit; i++) {
 
-			threadSleep(500);
+			threadSleep(250);
 //			getUtil().print("Waited for element and scrolling");
 			try {
 				if (getWebDriver().findElement(byLocator).isDisplayed()) {
@@ -295,6 +298,13 @@ public class Util extends BaseTest {
 
 		}
 
+	}
+
+	public void waitForProgressWheelToDisappear() {
+
+		getUtil().threadSleep(500);
+
+		getWebDriverWait().until(ExpectedConditions.invisibilityOfElementLocated(getPageObject().getProgressWheel()));
 	}
 
 	public void addRandomProductAndGoToCart() {

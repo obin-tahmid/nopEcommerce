@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-22T08:25:05 BDT" name="Suite" finished-at="2024-02-22T08:34:35 BDT" duration-ms="570667">
+  <suite started-at="2024-02-22T20:19:44 BDT" name="Suite" finished-at="2024-02-22T20:25:57 BDT" duration-ms="372983">
     <groups>
       <group name="Cart">
         <method signature="Cart_Test.TCM_001()[pri:1, instance:Tests.Cart_Test@729d991e]" name="TCM_001" class="Tests.Cart_Test"/>
         <method signature="Cart_Test.TCM_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Cart_Test@729d991e]" name="TCM_002" class="Tests.Cart_Test"/>
       </group> <!-- Cart -->
     </groups>
-    <test started-at="2024-02-22T08:25:05 BDT" name="Test" finished-at="2024-02-22T08:34:35 BDT" duration-ms="570667">
+    <test started-at="2024-02-22T20:19:44 BDT" name="Test" finished-at="2024-02-22T20:25:57 BDT" duration-ms="372983">
       <class name="Tests.Cart_Test">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:25:04 BDT" name="beforeSuite" finished-at="2024-02-22T08:25:05 BDT" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:19:44 BDT" name="beforeSuite" finished-at="2024-02-22T20:19:44 BDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:25:05 BDT" name="beforeTest" finished-at="2024-02-22T08:25:05 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:19:44 BDT" name="beforeTest" finished-at="2024-02-22T20:19:44 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:25:05 BDT" name="beforeClass" finished-at="2024-02-22T08:25:05 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:19:45 BDT" name="beforeClass" finished-at="2024-02-22T20:19:45 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:25:05 BDT" name="beforeMethod" finished-at="2024-02-22T08:25:12 BDT" duration-ms="6989" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:19:45 BDT" name="beforeMethod" finished-at="2024-02-22T20:19:51 BDT" duration-ms="6010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TCM_001()[pri:1, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:25:12 BDT" name="TCM_001" description="Verify Customer add products in his shopping cart" finished-at="2024-02-22T08:26:15 BDT" duration-ms="63643" status="PASS">
+        <test-method signature="TCM_001()[pri:1, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:19:51 BDT" name="TCM_001" description="Verify Customer add products in his shopping cart" finished-at="2024-02-22T20:20:27 BDT" duration-ms="36719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCM_001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:26:15 BDT" name="afterMethod" finished-at="2024-02-22T08:26:16 BDT" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:20:27 BDT" name="afterMethod" finished-at="2024-02-22T20:20:28 BDT" duration-ms="546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:26:16 BDT" name="beforeMethod" finished-at="2024-02-22T08:26:20 BDT" duration-ms="4049" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:20:28 BDT" name="beforeMethod" finished-at="2024-02-22T20:20:33 BDT" duration-ms="4300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TCM_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:26:20 BDT" name="TCM_002" description="Verify Customer successfully place order as a guest user" data-provider="billingInfo" finished-at="2024-02-22T08:29:00 BDT" duration-ms="159741" status="PASS">
+        <test-method signature="TCM_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:20:33 BDT" name="TCM_002" description="Verify Customer successfully place order as a guest user" data-provider="billingInfo" finished-at="2024-02-22T20:22:15 BDT" duration-ms="102270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,15 +90,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCM_002 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:29:00 BDT" name="afterMethod" finished-at="2024-02-22T08:29:01 BDT" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:22:15 BDT" name="afterMethod" finished-at="2024-02-22T20:22:15 BDT" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:29:01 BDT" name="beforeMethod" finished-at="2024-02-22T08:29:05 BDT" duration-ms="4078" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:22:15 BDT" name="beforeMethod" finished-at="2024-02-22T20:22:19 BDT" duration-ms="4268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TCM_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:29:05 BDT" name="TCM_002" description="Verify Customer successfully place order as a guest user" data-provider="billingInfo" finished-at="2024-02-22T08:31:46 BDT" duration-ms="161129" status="PASS">
+        <test-method signature="TCM_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:22:19 BDT" name="TCM_002" description="Verify Customer successfully place order as a guest user" data-provider="billingInfo" finished-at="2024-02-22T20:24:03 BDT" duration-ms="103402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,15 +149,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCM_002 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:31:46 BDT" name="afterMethod" finished-at="2024-02-22T08:31:46 BDT" duration-ms="383" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:24:03 BDT" name="afterMethod" finished-at="2024-02-22T20:24:03 BDT" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:31:46 BDT" name="beforeMethod" finished-at="2024-02-22T08:31:50 BDT" duration-ms="3945" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:24:03 BDT" name="beforeMethod" finished-at="2024-02-22T20:24:07 BDT" duration-ms="4286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TCM_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:31:50 BDT" name="TCM_002" description="Verify Customer successfully place order as a guest user" data-provider="billingInfo" finished-at="2024-02-22T08:34:35 BDT" duration-ms="164942" status="PASS">
+        <test-method signature="TCM_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:24:07 BDT" name="TCM_002" description="Verify Customer successfully place order as a guest user" data-provider="billingInfo" finished-at="2024-02-22T20:25:57 BDT" duration-ms="109768" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,19 +208,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCM_002 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:34:35 BDT" name="afterMethod" finished-at="2024-02-22T08:34:35 BDT" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:25:57 BDT" name="afterMethod" finished-at="2024-02-22T20:25:57 BDT" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:34:35 BDT" name="afterClass" finished-at="2024-02-22T08:34:35 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:34:35 BDT" name="afterTest" finished-at="2024-02-22T08:34:35 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:25:57 BDT" name="afterTest" finished-at="2024-02-22T20:25:57 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T08:34:35 BDT" name="afterSuite" finished-at="2024-02-22T08:34:35 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:25:57 BDT" name="afterClass" finished-at="2024-02-22T20:25:57 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Cart_Test@729d991e]" started-at="2024-02-22T20:25:58 BDT" name="afterSuite" finished-at="2024-02-22T20:25:58 BDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

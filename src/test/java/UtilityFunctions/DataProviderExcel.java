@@ -7,8 +7,6 @@ import java.io.IOException;
 import org.testng.annotations.DataProvider;
 
 public class DataProviderExcel {
-	
-
 
 	@DataProvider(name = "billingInfo")
 	public Object[][] billingAddressData() {

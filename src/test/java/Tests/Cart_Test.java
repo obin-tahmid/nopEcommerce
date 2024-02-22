@@ -150,7 +150,8 @@ public class Cart_Test extends BaseTest {
 
 		getUtil().click(getPageObject().getPDPProductQuantityIncreasePlusButton());
 
-		getUtil().threadSleep(3000);
+//		getUtil().threadSleep(3000);
+		getUtil().waitForProgressWheelToDisappear();
 
 		String expected_productQuantity = "2";
 		String actual_productQuantity = getUtil()
@@ -449,7 +450,9 @@ public class Cart_Test extends BaseTest {
 
 		getUtil().click(getPageObject().getGuestCheckoutBillingAddressCountrySpecificCountry(2));
 
-		getUtil().threadSleep(1000);
+//		getUtil().threadSleep(1000);
+		getUtil().waitForProgressWheelToDisappear();
+
 		getUtil().scrollDownToElement(getPageObject().getGuestCheckoutBillingAddressStateSelector());
 
 		getUtil().click(getPageObject().getGuestCheckoutBillingAddressStateSelector());
