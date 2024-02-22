@@ -31,10 +31,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseTest {
 
-	/*BaseTest: responsible for instantiation of driver, reporting, wait, utility, page Object and other core variables*/
-	
-	public static AppiumDriver driver;
-//	public static  AndroidDriver driver;
+	/*
+	 * BaseTest: responsible for instantiation of driver, reporting, wait, utility,
+	 * page Object and other core variables
+	 */
+
+//	public static AppiumDriver driver;
+	public static AndroidDriver driver;
 	public static Util util;
 	public static WebDriverWait wait;
 	public static PageObject object;
@@ -97,13 +100,15 @@ public class BaseTest {
 		URL serverUrl = null;
 		try {
 //            serverUrl = new URL("http://127.0.0.1:4723/wd/hub");
-			serverUrl = new URL("http://192.168.1.105:4723");
+			serverUrl = new URL("http://127.0.0.1:4723");
+//			serverUrl = new URL("http://192.168.1.105:4723");
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
 
 		// Initialize the AndroidDriver instance
-		driver = new AndroidDriver(serverUrl, capabilities);
+//		driver = new AndroidDriver(serverUrl, capabilities);
+		setWebDriver(new AndroidDriver(serverUrl, capabilities));
 
 	}
 
@@ -143,6 +148,11 @@ public class BaseTest {
 
 	@AfterTest
 	public void afterTest() {
+	}
+
+	public void setWebDriver(AndroidDriver driver) {
+		this.driver = driver;
+
 	}
 
 	public AndroidDriver getWebDriver() {

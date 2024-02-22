@@ -16,14 +16,14 @@ public class TestListeners extends BaseTest implements ITestListener {
 
 	@Override
 	public void onStart(ITestContext context) {
-		
+
 	}
 
 	@Override
 	public void onTestStart(ITestResult result) {
 
-		/*Adding test information to the extent report*/
-		
+		/* Adding test information to the extent report */
+
 		Method method = result.getMethod().getConstructorOrMethod().getMethod();
 		Test annotation = method.getAnnotation(Test.class);
 		String description = annotation.description();
@@ -54,11 +54,7 @@ public class TestListeners extends BaseTest implements ITestListener {
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		// checking if current TestMethod is dependent on some other method
-		/*
-		 * retryAnalyzer implementation was skipped as this is not required for the 2
-		 * scenario task
-		 */
-		
+
 		if (result.getMethod().getMethodsDependedUpon().length != 0 && result.wasRetried() == false) {
 
 			getExtentTest().log(Status.SKIP, "Test Skipped due to dependencies: "

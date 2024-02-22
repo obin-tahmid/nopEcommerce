@@ -10,10 +10,10 @@
         <methods>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
-          <include name="TCM_002"/>
           <include name="afterSuite"/>
-          <include name="afterMethod"/>
+          <include name="TCM_001"/>
           <include name="beforeTest"/>
+          <include name="afterMethod"/>
           <include name="beforeClass"/>
           <include name="afterTest"/>
           <include name="beforeMethod"/>

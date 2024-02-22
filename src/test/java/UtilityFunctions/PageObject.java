@@ -118,7 +118,7 @@ public class PageObject extends BaseTest {
 
 		return AppiumBy.id("Billing address");
 	}
-	
+
 	public By getGuestCheckoutBillingAddressTabTitle() {
 
 		return AppiumBy.xpath("//android.widget.TextView[@text=\"Billing address\"]");
@@ -265,9 +265,9 @@ public class PageObject extends BaseTest {
 	}
 
 	public By getGuestCheckoutOrderConfirmationPopupSuccessMessage() {
-		
+
 		getUtil().threadSleep(3000);
-		
+
 		return AppiumBy.id("com.nopstation.nopcommerce.nopstationcart:id/md_text_message");
 
 	}

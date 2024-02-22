@@ -227,7 +227,7 @@ public class Util extends BaseTest {
 
 	public void scrollRightOfElement(By byLocator) {
 
-		getUtil().threadSleep(1000);
+		getUtil().threadSleep(4000);
 		WebElement element = getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(byLocator));
 
 		org.openqa.selenium.Dimension elementSize = element.getSize();
@@ -237,7 +237,8 @@ public class Util extends BaseTest {
 		int elementWidth = elementSize.getWidth();
 
 		Point start = new Point(elementLocation.getX(), elementLocation.getY());
-		Point end = new Point((int) (elementLocation.getX() - (elementLocation.getX())), elementLocation.getY());
+		Point end = new Point((int) (elementLocation.getX() - (elementLocation.getX()*1.5)), elementLocation.getY());
+//		Point end = new Point((int) (20), elementLocation.getY());
 
 		swipe(start, end, Duration.ofMillis(300));
 	}

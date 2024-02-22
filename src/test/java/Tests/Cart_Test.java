@@ -281,7 +281,7 @@ public class Cart_Test extends BaseTest {
 
 	}
 
-	@Test(dataProviderClass = UtilityFunctions.DataProviderExcel.class, dataProvider = "billingInfo", priority = 0, groups = "Cart", description = "Verify Customer successfully place order as a guest user")
+	@Test(dataProviderClass = UtilityFunctions.DataProviderExcel.class, dataProvider = "billingInfo", priority = 2, groups = "Cart", description = "Verify Customer successfully place order as a guest user")
 	public void TCM_002(String firstName, String lastName, String email, String company, String city,
 			String streetAddress, String postcode, String phoneNumber, String fax) {
 

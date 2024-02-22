@@ -4,6 +4,7 @@
 	
 	<listeners>
 		<listener class-name="UtilityFunctions.TestListeners" />
+		<listener class-name="UtilityFunctions.RetryAnalyzer" />
 	</listeners>
 	
   <test name="Test">
